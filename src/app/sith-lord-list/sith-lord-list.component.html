@@ -1,0 +1,16 @@
+<ul *ngIf="query" class="list-group">
+  <li *ngFor="let sith of (sithLords | searchSithLord : query)" 
+      style="cursor: pointer;"
+       class="list-group-item d-flex justify-content-between align-items-center"
+       (click)="handleClick(sith); query=''"
+       [style.backgroundColor]="sith.selected ? '#EEE' : ''">
+    <img [src]="sith.icon" alt="Photo" style="width:70px;" />
+    <div class="card-body"> 
+      <h5 class="card-title"> {{sith.name}} </h5>
+      <h6 class="card-subtitle"> {{sith.description}} </h6>
+    </div>
+  </li>
+  
+</ul>
+
+<app-sith-lord-detail *ngIf="selectedSithLord" [sithLord]="selectedSithLord"> </app-sith-lord-detail>

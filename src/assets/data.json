@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Darth Vader",
+      "description": "Darth Vader is a fictional character in the Star Wars franchise. The character is the primary antagonist in the original trilogy and, as Anakin Skywalker, is the primary protagonist in the prequel trilogy.",
+      "icon": "assets/Vader.jpg",
+      "img": "assets/Vader-Large.jpg",
+      "selected": false
+    },
+    {
+      "name": "Darth Maul",
+      "description": "Maul, once known as Darth Maul, was a Force-sensitive Dathomirian Zabrak male who established himself as a crime lord during the reign of the Galactic Empire.",
+      "icon": "assets/Maul.jpg",
+      "img": "assets/Maul-Large.jpg",
+      "selected": false
+    },
+    {
+      "name": "Darth Sidious",
+      "description": "Sheev Palpatine is a fictional character in the Star Wars franchise, created by George Lucas. Initially credited as The Emperor in the 1980 film The Empire Strikes Back, he is also known by his Sith name Darth Sidious.",
+      "icon": "assets/Emperor.jpg",
+      "img": "assets/Emperor-Large.jpg",
+      "selected": false
+    },
+    {
+      "name": "Asajj Ventress",
+      "description": "Originally a Jedi, after her master died Ventress turned into an assassin. Trained in the ways of the dark side by Count Dooku, Asajj Ventress yearned to be considered a true Sith, but such status wasn't allowed under the Sith's Rule of Two. Ventress fought with twin red-bladed Lightsabers, and clashed with Obi-Wan Kenobi and Anakin Skywalker many times.",
+      "icon": "assets/Asajj.jpg",
+      "img": "assets/Asajj-Large.jpg",
+      "selected": false
+    },
+    {
+      "name": "Kylo Ren",
+      "description": "Kylo Ren was the master of the Knights of Ren and the apprentice of Supreme Leader Snoke.",
+      "icon": "assets/Kylo.jpg",
+      "img": "assets/Kylo-Large.jpg",
+      "selected": false
+    }
+  ]
