@@ -7,9 +7,12 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SithLordDetailComponent implements OnInit {
   @Input() sithLord: any;
+ 
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

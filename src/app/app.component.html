@@ -9,5 +9,5 @@
 
 
 
-<app-sith-lord-list *ngIf="query" [sithLords]="sithLords" [query]="query"> </app-sith-lord-list>
+<app-sith-lord-list [sithLords]="sithLords" [query]="query" (sithLordSelected)="handleSelected($event)"> </app-sith-lord-list>
 

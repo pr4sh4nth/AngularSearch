@@ -2,7 +2,7 @@
   <li *ngFor="let sith of (sithLords | searchSithLord : query)" 
       style="cursor: pointer;"
        class="list-group-item d-flex justify-content-between align-items-center"
-       (click)="handleClick(sith); query=''"
+       (click)="handleClick(sith);"
        [style.backgroundColor]="sith.selected ? '#EEE' : ''">
     <img [src]="sith.icon" alt="Photo" style="width:70px;" />
     <div class="card-body"> 
